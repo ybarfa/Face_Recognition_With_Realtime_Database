@@ -153,5 +153,3 @@ while True:
     # cv2.imshow("Webcam", img)
     cv2.imshow("Face Attendance", imgBackground)
     cv2.waitKey(1)
-
-# 2:13:49 yt_video
