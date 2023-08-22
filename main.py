@@ -46,8 +46,7 @@ counter = 0
 id = -1
 imgStudent = []
 
-# Confidence threshold for face recognition
-confidence_threshold = 0.9  # Adjust as needed
+confidence_threshold = 0.35
 
 while True:
     success, img = cap.read()
