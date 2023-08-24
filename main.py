@@ -46,7 +46,7 @@ counter = 0
 id = -1
 imgStudent = []
 
-confidence_threshold = 0.35
+confidence_threshold = 0.34
 
 while True:
     success, img = cap.read()
@@ -98,7 +98,7 @@ while True:
                 # update data of attendance
                 datetimeObject = datetime.strptime(studentInfo['last_attendance_time'], "%Y-%m-%d %H:%M:%S")
                 secondsElapsed = (datetime.now()-datetimeObject).total_seconds()
-                print(secondsElapsed)
+                # print(secondsElapsed)
                 if secondsElapsed > 30:
                     ref = db.reference(f'Students/{id}')
                     studentInfo['total_attendance'] += 1
