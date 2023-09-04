@@ -30,6 +30,16 @@ data = {
             "year": 4,
             "last_attendance_time": "2023-08-18 00:54:34"
         },
+    "0808DS201061":
+        {
+            "name": "Utsav Patni",
+            "major": "Data Science",
+            "starting_year": 2020,
+            "total_attendance": 3,
+            "standing": "VG",
+            "year": 4,
+            "last_attendance_time": "2023-08-18 00:54:34"
+        },
     "0808DS201063":
         {
             "name": "Yash Barfa",
